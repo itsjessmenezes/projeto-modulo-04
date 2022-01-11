@@ -1,0 +1,90 @@
+header {
+  background-color: #134563;
+  display: flex;
+  height: 70px;
+  margin-bottom: 104px;
+  padding: 26px;
+}
+
+header div {
+  width: 50%;
+}
+
+.kontacts-logout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kontacts-logout span {
+  margin-left: -44px;
+  color: #ffffff;
+  font-family: 'Rokkitt', serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logout {
+  cursor:pointer;
+}
+
+main {
+  width: 900px;
+  margin: auto;
+}
+.add-btn {
+  background-color: var(--green-button);
+  width: 237px;
+  height: 50px;
+  margin-bottom: 32px;
+}
+
+.table {
+  justify-content: space-between;
+}
+
+.table-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-line {
+  background-color: #fffafa;
+  display: flex;
+  height: 45px;
+  margin-bottom: 8px;
+  padding: 16px 32px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table-title {
+  background-color: #f4f0f0;
+  display: flex;
+  height: 45px;
+  margin-bottom: 8px;
+  padding: 16px 32px;
+  align-items: center;
+  justify-content: space-between;
+
+  font-weight: bold;
+}
+
+.table-title .line-title:first-of-type {
+  /* width: -50%; */
+  margin-right: -30px;
+}
+.table-title .line-title:last-of-type {
+  /* margin-: -330px; */
+  margin-right: 300px;
+}
+
+.edit {
+  margin-right: 16px;
+}
+
+.edit:hover,
+.delete:hover {
+  cursor: pointer;
+}
